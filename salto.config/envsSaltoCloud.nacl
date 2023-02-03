@@ -4,9 +4,5 @@ envs {
       uuid = "c99cd885-d230-432b-9c39-2c3498bd8f22"
       folderName = "ZenDEV"
     },
-    {
-      uuid = "f9ef48f5-eba9-42c6-9662-011196d9071c"
-      folderName = "ZenPROD"
-    },
   ]
 }
