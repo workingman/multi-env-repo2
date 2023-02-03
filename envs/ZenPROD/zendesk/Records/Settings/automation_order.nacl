@@ -14,6 +14,7 @@ zendesk.automation_order {
     zendesk.automation.instance.Automate_ZSB_routing@s,
     zendesk.automation.instance.Automate_ZSC_Routing@s,
     zendesk.automation.instance.GWR_Assign_Green_to_Geoff@s,
+    zendesk.automation.instance.GWR_Automation2___created_in_sb@ssbsss,
   ]
   inactive = [
     zendesk.automation.instance.Pending_notification_24_hours@s,
