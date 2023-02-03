@@ -1,0 +1,8 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "c99cd885-d230-432b-9c39-2c3498bd8f22"
+      folderName = "ZenDEV"
+    },
+  ]
+}
