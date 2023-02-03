@@ -1,0 +1,938 @@
+zendesk.account_features {
+  explore_access_permission_set = {
+    enabled = true
+  }
+  explore_temporary_access = {
+    enabled = true
+  }
+  feedback_tab_persist = {
+    enabled = false
+  }
+  gooddata_advanced_analytics = {
+    enabled = true
+  }
+  bime_integration = {
+    enabled = false
+  }
+  gooddata_hourly_synchronization = {
+    enabled = true
+  }
+  explore_show_insights_eol_message = {
+    enabled = true
+  }
+  explore_show_insights_eol_countdown_message = {
+    enabled = true
+  }
+  explore_embedding_dashboard_in_lotus = {
+    enabled = false
+  }
+  status_hold = {
+    enabled = true
+  }
+  lotus_moment_js = {
+    enabled = false
+  }
+  client_side_logging = {
+    enabled = false
+  }
+  js_exception_logging = {
+    enabled = false
+  }
+  ticket_forms = {
+    enabled = true
+  }
+  custom_statuses = {
+    enabled = true
+  }
+  custom_statuses_enabled = {
+    enabled = false
+  }
+  sla_includes_operators_for_custom_statuses = {
+    enabled = false
+  }
+  custom_statuses_enabled_for_automations = {
+    enabled = false
+  }
+  default_on_hold_custom_status_deactivation_enabled = {
+    enabled = false
+  }
+  lotus_sync_ticket_custom_status = {
+    enabled = false
+  }
+  custom_statuses_in_zaf = {
+    enabled = false
+  }
+  custom_status_ticket_field_enabled = {
+    enabled = false
+  }
+  ctf_cts_enabled = {
+    enabled = false
+  }
+  multiple_organizations = {
+    enabled = false
+  }
+  classic_reporting = {
+    enabled = true
+  }
+  reporting_leaderboard = {
+    enabled = true
+  }
+  satisfaction_prediction = {
+    enabled = false
+  }
+  macro_preview = {
+    enabled = false
+  }
+  automatic_answers = {
+    enabled = true
+  }
+  radar_organizations_autofetch_enabled = {
+    enabled = false
+  }
+  lotus_safe_updates = {
+    enabled = true
+  }
+  rule_usage_stats = {
+    enabled = true
+  }
+  rule_analysis = {
+    enabled = true
+  }
+  customer_satisfaction = {
+    enabled = false
+  }
+  business_hours = {
+    enabled = true
+  }
+  multiple_schedules = {
+    enabled = true
+  }
+  service_level_agreements = {
+    enabled = true
+  }
+  personal_rules = {
+    enabled = true
+  }
+  group_rules = {
+    enabled = true
+  }
+  permission_sets = {
+    enabled = true
+  }
+  cms = {
+    enabled = true
+  }
+  macro_limits = {
+    enabled = true
+  }
+  return_all_personal_macros_for_admin = {
+    enabled = false
+  }
+  user_views = {
+    enabled = false
+  }
+  customer_and_org_lists_navigation = {
+    enabled = true
+  }
+  customer_lists_and_orgs_eap = {
+    enabled = false
+  }
+  react_customer_list = {
+    enabled = true
+  }
+  react_org_list = {
+    enabled = true
+  }
+  nps_surveys = {
+    enabled = false
+  }
+  nps_csv_export_v2 = {
+    enabled = false
+  }
+  nps_expand_invite_limit = {
+    enabled = false
+  }
+  nps_web_widget = {
+    enabled = false
+  }
+  nps_reporting_d3 = {
+    enabled = false
+  }
+  csat_reason_code = {
+    enabled = false
+  }
+  nps_survey_name = {
+    enabled = true
+  }
+  multibrand = {
+    enabled = true
+  }
+  unlimited_multibrand = {
+    enabled = true
+  }
+  customer_analytics_integration = {
+    enabled = true
+  }
+  sdk_manage_requests = {
+    enabled = true
+  }
+  groups = {
+    enabled = true
+  }
+  organizations = {
+    enabled = true
+  }
+  sandbox = {
+    enabled = true
+  }
+  light_agents = {
+    enabled = true
+  }
+  zopim_chat = {
+    enabled = true
+  }
+  targets = {
+    enabled = true
+  }
+  crm_integrations = {
+    enabled = true
+  }
+  at_mentions = {
+    enabled = true
+  }
+  apps_lotus_faster_rendering = {
+    enabled = false
+  }
+  debounced_set_and_save_ui = {
+    enabled = false
+  }
+  apps_status_button_api_fix = {
+    enabled = true
+  }
+  apps_expand_collapse = {
+    enabled = true
+  }
+  apps_react_container = {
+    enabled = false
+  }
+  apps_tracking = {
+    enabled = false
+  }
+  apps_new_reorder_page = {
+    enabled = true
+  }
+  apps_lazy_loading = {
+    enabled = false
+  }
+  apps_new_ajax_request = {
+    enabled = true
+  }
+  apps_core_apis_instrumentation = {
+    enabled = false
+  }
+  apps_zaf_loader = {
+    enabled = true
+  }
+  zaf_edge = {
+    enabled = false
+  }
+  lotus_garden_chrome_330 = {
+    enabled = false
+  }
+  voice_recharge = {
+    enabled = true
+  }
+  voice_recharge_self_service = {
+    enabled = false
+  }
+  voice_transfer = {
+    enabled = false
+  }
+  voice_chrome_bugfix = {
+    enabled = false
+  }
+  voice_recording_not_available = {
+    enabled = true
+  }
+  voice_retry_ticket_pop = {
+    enabled = false
+  }
+  voice_insights_v2 = {
+    enabled = false
+  }
+  voice_html5_player_for_greetings = {
+    enabled = true
+  }
+  voice_reject_when_offline = {
+    enabled = false
+  }
+  voice_formatted_phone_numbers = {
+    enabled = false
+  }
+  non_usd_percent_coupon = {
+    enabled = false
+  }
+  voice_dashboard_enabled = {
+    enabled = true
+  }
+  voice_basic_dashboard_enabled = {
+    enabled = false
+  }
+  help_center_analytics = {
+    enabled = true
+  }
+  help_center_guide_plans = {
+    enabled = true
+  }
+  knowledge_bank = {
+    enabled = false
+  }
+  low_agent_seat_radar_notification = {
+    enabled = true
+  }
+  web_widget_onboarding = {
+    enabled = true
+  }
+  discovery_channel_text = {
+    enabled = true
+  }
+  boost_countdown = {
+    enabled = true
+  }
+  help_widget = {
+    enabled = false
+  }
+  plus_help_widget = {
+    enabled = false
+  }
+  patagonia_enterprise_help_widget = {
+    enabled = true
+  }
+  patagonia_plus_help_widget = {
+    enabled = false
+  }
+  plus_help_widget_chat = {
+    enabled = false
+  }
+  plus_help_widget_question = {
+    enabled = false
+  }
+  regular_help_widget_question = {
+    enabled = false
+  }
+  chat_html_notifications = {
+    enabled = false
+  }
+  delay_channels_accounts_fetch = {
+    enabled = false
+  }
+  new_agent_search_ui = {
+    enabled = true
+  }
+  delete_ticket_metadata_pii = {
+    enabled = false
+  }
+  satisfaction_dashboard = {
+    enabled = true
+  }
+  mobile_sdk_old_support = {
+    enabled = false
+  }
+  fix_ticket_skills_cache = {
+    enabled = false
+  }
+  ticket_skills_next_ticket_promise = {
+    enabled = true
+  }
+  skill_based_view_filters = {
+    enabled = true
+  }
+  filtered_views_discrepancy = {
+    enabled = false
+  }
+  log_attribute_values_assignment = {
+    enabled = false
+  }
+  skill_based_ticket_routing = {
+    enabled = true
+  }
+  show_skills_on_agent_page = {
+    enabled = true
+  }
+  show_edit_ticket_skills_setting = {
+    enabled = false
+  }
+  bulk_assign_agents_to_skill = {
+    enabled = false
+  }
+  trigger_revision_history = {
+    enabled = true
+  }
+  rule_matching_extraction = {
+    enabled = false
+  }
+  twitter_saved_search = {
+    enabled = false
+  }
+  twitter_maintenance = {
+    enabled = false
+  }
+  messaging_channel_name_trigger_condition = {
+    enabled = true
+  }
+  pci_credit_card_custom_field = {
+    enabled = true
+  }
+  fix_ticket_due_date_v2 = {
+    enabled = false
+  }
+  occam_slow_rule_handler = {
+    enabled = true
+  }
+  views_expose_filterable_prop = {
+    enabled = true
+  }
+  views_execute_cbp_pagination = {
+    enabled = false
+  }
+  lotus_real_time_counts = {
+    enabled = true
+  }
+  lotus_real_time_counts_continuously_polling = {
+    enabled = false
+  }
+  lotus_real_time_counts_pubsub = {
+    enabled = false
+  }
+  lotus_real_time_counts_ui_updates = {
+    enabled = false
+  }
+  hide_views_export = {
+    enabled = false
+  }
+  apps_client_rate_limit = {
+    enabled = true
+  }
+  user_and_organization_fields = {
+    enabled = true
+  }
+  play_tickets = {
+    enabled = true
+  }
+  play_tickets_advanced = {
+    enabled = true
+  }
+  unlimited_automations = {
+    enabled = true
+  }
+  unlimited_views = {
+    enabled = true
+  }
+  unlimited_triggers = {
+    enabled = true
+  }
+  billing_primary_sync = {
+    enabled = true
+  }
+  hpm2_classic = {
+    enabled = false
+  }
+  neuter_cc_errors = {
+    enabled = false
+  }
+  billing_multiprod_success_page = {
+    enabled = true
+  }
+  billing_maintenance = {
+    enabled = false
+  }
+  billing_paypal_support = {
+    enabled = true
+  }
+  billing_subscription_iframe = {
+    enabled = false
+  }
+  billing_suite = {
+    enabled = true
+  }
+  billing_pricebook_consolidation = {
+    enabled = false
+  }
+  billing_ooc_zuora = {
+    enabled = false
+  }
+  billing_journal_comparator = {
+    enabled = false
+  }
+  billing_maintenance_disable_ui = {
+    enabled = false
+  }
+  billing_enable_bridge_suspension_mvp = {
+    enabled = false
+  }
+  billing_improve_in_product_dunning_messages = {
+    enabled = true
+  }
+  bill_suite_upsell = {
+    enabled = true
+  }
+  billing_deprecate_classic_pricing = {
+    enabled = true
+  }
+  restrict_suite = {
+    enabled = false
+  }
+  suite_purchase_override = {
+    enabled = true
+  }
+  apps_private = {
+    enabled = true
+  }
+  apps_public = {
+    enabled = true
+  }
+  conditional_fields_app = {
+    enabled = true
+  }
+  macro_application_no_liquid = {
+    enabled = false
+  }
+  dc_in_macro_titles = {
+    enabled = true
+  }
+  reengagement_enabled = {
+    enabled = false
+  }
+  email_ccs_cache_fix = {
+    enabled = false
+  }
+  email_enable_initial_import = {
+    enabled = false
+  }
+  email_deprecate_cname_checks = {
+    enabled = true
+  }
+  email_forward_code_start_verification = {
+    enabled = true
+  }
+  email_mrj_retries_for_db_replica_lag = {
+    enabled = true
+  }
+  email_new_settings = {
+    enabled = false
+  }
+  disable_suspending_email_spam_requesters = {
+    enabled = false
+  }
+  email_simplified_threading = {
+    enabled = true
+  }
+  collaboration_enabled = {
+    enabled = false
+  }
+  follower_and_email_cc_collaborations = {
+    enabled = true
+  }
+  comment_email_ccs_allowed = {
+    enabled = true
+  }
+  light_agent_email_ccs_allowed = {
+    enabled = false
+  }
+  ticket_followers_allowed = {
+    enabled = true
+  }
+  email_ccs_onboarding = {
+    enabled = false
+  }
+  email_ccs_internal_comment_fix = {
+    enabled = true
+  }
+  rounded_avatars = {
+    enabled = false
+  }
+  sms = {
+    enabled = true
+  }
+  lotus_agent_availability = {
+    enabled = false
+  }
+  collaborators_settable_in_help_center = {
+    enabled = false
+  }
+  target_failure = {
+    enabled = true
+  }
+  pathfinder_app = {
+    enabled = true
+  }
+  public_app_market_admin_ui = {
+    enabled = true
+  }
+  app_market_main_page_link = {
+    enabled = false
+  }
+  apps_zaf_v1_extension = {
+    enabled = false
+  }
+  easy_agent_add = {
+    enabled = true
+  }
+  paypal = {
+    enabled = false
+  }
+  eu_data_center = {
+    enabled = false
+  }
+  germany_data_center = {
+    enabled = false
+  }
+  us_data_center = {
+    enabled = false
+  }
+  jp_data_center = {
+    enabled = false
+  }
+  au_data_center = {
+    enabled = false
+  }
+  advanced_security = {
+    enabled = false
+  }
+  disable_customer_analytics = {
+    enabled = false
+  }
+  revere_subscriptions = {
+    enabled = true
+  }
+  voltron_chat = {
+    enabled = true
+  }
+  stores_backfill = {
+    enabled = true
+  }
+  dropdown_multiselect = {
+    enabled = true
+  }
+  polaris_rum = {
+    enabled = true
+  }
+  native_conditional_fields_enabled = {
+    enabled = true
+  }
+  chat_product_tray = {
+    enabled = true
+  }
+  talk_product_tray = {
+    enabled = true
+  }
+  voice_csv_generation = {
+    enabled = true
+  }
+  lotus_react = {
+    enabled = true
+  }
+  product_update_link = {
+    enabled = true
+  }
+  agent_chat_limits = {
+    enabled = false
+  }
+  user_level_shared_view_ordering = {
+    enabled = false
+  }
+  unset_ticket_org_when_removing_default_user_org = {
+    enabled = false
+  }
+  react_rte = {
+    enabled = false
+  }
+  central_admin_staff_mgmt_roles_tab = {
+    enabled = true
+  }
+  mauna_kea = {
+    enabled = false
+  }
+  custom_objects_filtering_enabled = {
+    enabled = true
+  }
+  ocp_users_autocomplete_query = {
+    enabled = true
+  }
+  ocp_customer_profile = {
+    enabled = true
+  }
+  side_conversations_email = {
+    enabled = false
+  }
+  side_conversations_slack = {
+    enabled = false
+  }
+  side_conversations_tickets = {
+    enabled = false
+  }
+  side_conversations_msteams_channel = {
+    enabled = false
+  }
+  side_conversations_msteams = {
+    enabled = false
+  }
+  side_conversations = {
+    enabled = true
+  }
+  side_conversations_in_context_panel = {
+    enabled = false
+  }
+  suite_trial_onboarding = {
+    enabled = false
+  }
+  suite_trial = {
+    enabled = true
+  }
+  direct_buy = {
+    enabled = false
+  }
+  suite_sell_trial = {
+    enabled = true
+  }
+  suite_trial_default_messaging_experience = {
+    enabled = false
+  }
+  notify_of_external_updates = {
+    enabled = false
+  }
+  turn_off_fb_user_profile_deep_link = {
+    enabled = true
+  }
+  contextual_workspaces = {
+    enabled = true
+  }
+  assume_csrf_protection = {
+    enabled = true
+  }
+  present_ticket_bulk_edit_permission = {
+    enabled = false
+  }
+  gdpr_lotus_react = {
+    enabled = false
+  }
+  polaris = {
+    enabled = true
+  }
+  fallback_omnicomposer = {
+    enabled = false
+  }
+  delete_personal_macros_when_delete_agent = {
+    enabled = true
+  }
+  agent_workspace_role_restriction = {
+    enabled = false
+  }
+  agent_workspace_auto_activation_deactivation_override = {
+    enabled = false
+  }
+  lotus_feature_aw_onboarding_tooltips = {
+    enabled = true
+  }
+  agent_workspace_compatible = {
+    enabled = true
+  }
+  display_group_and_department_migration = {
+    enabled = false
+  }
+  finished_group_and_department_migration = {
+    enabled = true
+  }
+  lotus_feature_react_ticket = {
+    enabled = false
+  }
+  lotus_feature_apps_react_ticket_sidebar = {
+    enabled = true
+  }
+  disable_lotus_expiry = {
+    enabled = false
+  }
+  subscription_plan_with_private_groups = {
+    enabled = true
+  }
+  central_admin_non_multiproduct = {
+    enabled = true
+  }
+  social_messaging_agent_workspace = {
+    enabled = true
+  }
+  native_messaging = {
+    enabled = false
+  }
+  ocb_messaging_enabled = {
+    enabled = false
+  }
+  podded_chat = {
+    enabled = false
+  }
+  social_messaging = {
+    enabled = true
+  }
+  all_sunco_messaging_channels = {
+    enabled = false
+  }
+  chat_authenticated_visitor = {
+    enabled = true
+  }
+  show_macro_suggestions_setting = {
+    enabled = true
+  }
+  macro_suggestions = {
+    enabled = true
+  }
+  total_resolution_time_metric = {
+    enabled = false
+  }
+  split_sla_targets = {
+    enabled = false
+  }
+  slas_audit_ui = {
+    enabled = true
+  }
+  operational_level_agreements = {
+    enabled = false
+  }
+  views_editable_with_one_matching_group = {
+    enabled = true
+  }
+  macros_editable_with_one_matching_group = {
+    enabled = true
+  }
+  set_text_and_numeric_ticket_fields_with_triggers = {
+    enabled = true
+  }
+  trigger_condition_attachment_is_present = {
+    enabled = true
+  }
+  sms_react_triggers = {
+    enabled = true
+  }
+  trigger_condition_cc_is_present = {
+    enabled = true
+  }
+  create_revisions_on_category_changes = {
+    enabled = true
+  }
+  updated_workspace_changed_presenter = {
+    enabled = true
+  }
+  trigger_categories = {
+    enabled = true
+  }
+  trigger_categories_api = {
+    enabled = true
+  }
+  move_to_category_bulk_action = {
+    enabled = true
+  }
+  lotus_feature_use_reorder_for_bulk_trigger_move = {
+    enabled = true
+  }
+  prevent_cloned_automations = {
+    enabled = true
+  }
+  lotus_feature_auto_translation = {
+    enabled = true
+  }
+  agent_workspace_omni_redaction = {
+    enabled = true
+  }
+  lotus_feature_omni_redaction_phase_2 = {
+    enabled = true
+  }
+  use_agent_default_group_assignment = {
+    enabled = false
+  }
+  permissions_triggers_manage = {
+    enabled = true
+  }
+  permissions_automations_manage = {
+    enabled = true
+  }
+  permissions_slas_manage = {
+    enabled = true
+  }
+  permissions_central_admin_use_revised_policy_api = {
+    enabled = false
+  }
+  permissions_skills_based_routing_manage = {
+    enabled = true
+  }
+  permissions_ticket_redact = {
+    enabled = true
+  }
+  permissions_ticket_delete = {
+    enabled = false
+  }
+  lotus_feature_mss_attachments = {
+    enabled = true
+  }
+  enable_trigger_custom_field_search = {
+    enabled = true
+  }
+  default_values_for_multi_select_fields = {
+    enabled = false
+  }
+  lookup_relationship_ticket_field = {
+    enabled = true
+  }
+  lookup_relationship_automation_action = {
+    enabled = false
+  }
+  lookup_relationship_ticket_trigger_selection = {
+    enabled = false
+  }
+  lookup_relationship_negation_filter_conditions = {
+    enabled = true
+  }
+  lookup_relationship_within_date_filter_conditions = {
+    enabled = false
+  }
+  lookup_relationship_include_brand_condition = {
+    enabled = false
+  }
+  custom_objects_v2 = {
+    enabled = false
+  }
+  cov2_zendesk_rules_enabled = {
+    enabled = false
+  }
+  custom_objects_v2_ticket_views = {
+    enabled = false
+  }
+  lookup_field_cov2_filter = {
+    enabled = false
+  }
+  cov2_zendesk_rules_integration = {
+    enabled = false
+  }
+  admin_center_framework_view_custom_fields = {
+    enabled = true
+  }
+  key_details = {
+    enabled = false
+  }
+  custom_objects_enabled = {
+    enabled = false
+  }
+  increased_contextual_workspace_limit = {
+    enabled = true
+  }
+  contextual_workspace_show_assignee_condition = {
+    enabled = true
+  }
+  admin_center_framework_view_triggers = {
+    enabled = true
+  }
+  omnichannel_routing_enabled = {
+    enabled = false
+  }
+  omnichannel_contact_centre_enabled = {
+    enabled = false
+  }
+}
